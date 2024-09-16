@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F177083-B8C0-ACFE-DBDB-7A5790B9A1B1" name="Sucursales o agencias">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:03:38 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6A282DA6-338E-5844-CD74-E8917BE4127F">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:03:58 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="D0FC7E3F-31EA-4C30-DF71-C65F11389BA8">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:04:04 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="1B191BDC-B990-3C80-C8E7-21BE1DC5673A">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:04:08 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="B6E0DD8A-3715-818D-D59C-C7D89E7A7757">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:04:13 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_departamento" id="CF6E510E-3CFC-60B7-FE36-8937165ADEEB">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:04:16 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="1580E8D2-61AD-4DD0-39F3-D289A6816DAE">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:07:45 UTC</createdTime>
+<generatorID>867B4954-F8DD-7DCD-39EB-C377A5BBB6D5</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<referedAttribute>DB244939-7853-0992-2824-73D9975A215D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="ADF9819B-C28C-07AA-7AA6-C384ECBEEF99">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:27:16 UTC</createdTime>
+<generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<referedAttribute>D903AFD5-A663-147C-0CCB-4711B292C3C9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09EB8B60-961C-D903-8921-D8C5E0D93B02" name="Sucursales o agencias PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-13 05:04:03 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A282DA6-338E-5844-CD74-E8917BE4127F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0726FC24-6188-40B3-40A3-18D71188CC82" name="Tarjetas de credito">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0A059C-0AB2-D81D-2144-95A955B9B1A5" name="Empleados">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:19 UTC</createdTime>
+<createdTime>2024-09-13 05:18:53 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="A1437AB8-4445-6AA9-BC21-2B015BA3D798">
+<Attribute name="ID" id="D903AFD5-A663-147C-0CCB-4711B292C3C9">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:35 UTC</createdTime>
+<createdTime>2024-09-13 05:19:36 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -25,19 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Cliente" id="A652206D-0964-938A-7F05-547D07AFC6F2">
+<Attribute name="Nombre" id="1373F32A-B145-3815-116D-2AB5DAF1F44A">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:39 UTC</createdTime>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Numero_tarjeta" id="49FE6C37-1065-8D5B-845E-EF7ECEE4607F">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:46 UTC</createdTime>
+<createdTime>2024-09-13 05:26:13 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -46,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Limite_credito" id="97D356BC-66C1-719F-68DE-D1CC460EC33B">
+<Attribute name="Apellido" id="9998D155-550B-0CA5-8910-6A4E22C42AD3">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:52 UTC</createdTime>
+<createdTime>2024-09-13 05:26:21 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -57,9 +47,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Saldo_actual" id="4CA84606-1AC1-387E-9235-85D34C68E94F">
+<Attribute name="Telefono" id="23E04642-A0C4-1756-2368-064E074BB7C8">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:59 UTC</createdTime>
+<createdTime>2024-09-13 05:26:25 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -68,9 +58,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_emision" id="88B9B778-E14F-4846-E436-8F7E794A04D7">
+<Attribute name="Departamento" id="119C6BE1-7F22-D8A5-91D7-15592007CE86">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:56:06 UTC</createdTime>
+<createdTime>2024-09-13 05:26:38 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -79,9 +69,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_expiracion" id="A3621C4F-C68B-7A39-633F-162C37E0DBB0">
+<Attribute name="Sucursal" id="B82AAB34-595D-5EC4-8613-5DDE121477A8">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:56:11 UTC</createdTime>
+<createdTime>2024-09-13 05:26:45 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
@@ -90,67 +80,54 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_corte" id="9C1B82A8-7321-C392-B2F0-8FFFD285D5E2">
+<Attribute name="ID1" id="6AE64B1E-A2CA-A070-FBD0-00C1705C719D">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:56:47 UTC</createdTime>
+<createdTime>2024-09-13 05:27:13 UTC</createdTime>
+<generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6A282DA6-338E-5844-CD74-E8917BE4127F</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Dia_ciclo" id="5D663116-8FD7-1E24-CBD9-CC7B3C4009DA">
+<Attribute name="ID3" id="C6EDACD2-7D2B-784F-319C-AD3B5060EBAB">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:56:52 UTC</createdTime>
+<createdTime>2024-09-13 05:30:20 UTC</createdTime>
+<generatorID>1C8C6C5D-2854-442B-9EF8-80226CA71BDF</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DB244939-7853-0992-2824-73D9975A215D</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="15D4FF5E-C1E2-761C-E802-3A6706FCA60B">
+<Attribute name="ID2" id="01507564-4FA6-1EF9-01E6-96854E546608">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:01:56 UTC</createdTime>
-<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
+<createdTime>2024-09-14 01:27:01 UTC</createdTime>
+<generatorID>A1A34323-1661-BCC1-88DB-9F61D74B9164</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID2" id="64CFC206-0E23-3F75-6DE3-388E570B51DD">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:02:13 UTC</createdTime>
-<generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<referedAttribute>EDCAAF5F-77E2-285B-3CA5-13C7E73FB997</referedAttribute>
+<referedAttribute>B76C9B3C-2E82-E768-2312-30BDD9A2FA76</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="547908A0-3B95-E4BD-F1AC-FE23108FBD14" name="Tarjetas de credito PK">
+<identifier id="8780D058-F4FB-10F9-C822-F23BE12300AE" name="Empleados PK">
 <createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 04:55:38 UTC</createdTime>
+<createdTime>2024-09-13 05:26:12 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A1437AB8-4445-6AA9-BC21-2B015BA3D798</attributeRef>
-<attributeRef>A652206D-0964-938A-7F05-547D07AFC6F2</attributeRef>
+<attributeRef>D903AFD5-A663-147C-0CCB-4711B292C3C9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
