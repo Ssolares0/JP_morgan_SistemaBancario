@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90E27610-99AD-4ACD-B7DD-2EB11655A19D" name="Estado_del_prestamo">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>93909469-6F1E-0CD4-E6CC-3DAC586A98B2</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="50C92011-8AD7-EE52-2390-09F69D39A6E8">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>C6268F4E-335E-F852-1ACC-C87A1A1771EB</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="6C495BF4-2D32-EDA3-E559-D4D63655CABF">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>03429F3A-F054-1C2D-84E1-25EF565D4311</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prestamos_ID" id="42487B42-E77E-C0A2-6F71-0CAEA7FFBEA5">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>422A322C-9798-76C6-F776-14DC5955434B</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="624D0726-9704-859B-3F7A-3388841B667B" name="Estado_del_prestamo_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>84A5B386-3E23-557A-DFF4-C7DA83BE0AC3</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50C92011-8AD7-EE52-2390-09F69D39A6E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32E7F016-0AE2-EEDE-8623-CA4EC5F56DD0" name="Estado_del_prestamo__IDX">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EE953588-F771-4DD2-6DD2-3E115C131C01</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42487B42-E77E-C0A2-6F71-0CAEA7FFBEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CF867C5-BC1D-64CC-29DC-C88619427177" name="Tipo_transaccion">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>1E8CB78B-8873-B1EB-5341-B53A0C696338</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="98C67889-2910-F5C8-9761-68B11BE6452E">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>EAAB652F-C2E5-63A8-15C3-2EFB9337BC10</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_transaccion" id="EB46C1B2-5842-DC96-8137-7FE44CAE15B8">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>4825AD9F-BD2F-B4DB-96AA-DB1EA9FBFAA0</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62235F10-49C3-3826-8CBB-8A9CAD8CED6F" name="Tipo_transaccion_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>A2AC5655-3044-C08A-2679-EE5729B70A38</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98C67889-2910-F5C8-9761-68B11BE6452E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

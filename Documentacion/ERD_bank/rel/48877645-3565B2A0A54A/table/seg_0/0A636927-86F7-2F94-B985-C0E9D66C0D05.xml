@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A636927-86F7-2F94-B985-C0E9D66C0D05" name="Cuentas_cliente">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>7E0473E5-BC42-C9E3-F366-F7A2B09995CC</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C5019CD7-1A98-85C2-FFBA-56AE5CBEAF41">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>3E96B72E-86D9-DEAC-9BAE-6A2AB1ABFAD1</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_Cuenta" id="37F18DC4-D9CA-0431-1EE2-C4CD0E139981">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>2CB35246-7CC9-84C9-01E5-62285074A404</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_tipoCuenta" id="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>BB4B925B-773C-B10D-3173-01743DBB10DA</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo" id="C27ABAE7-FE53-FAAC-B65C-412D833AEB72">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>5DB38154-AD51-0D36-5E57-D04E3622478E</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_ID" id="4587ADB4-5060-10EB-6C92-911FA393EB62">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>97F9232B-0147-C515-9BA2-A16DF156FC30</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CD6C863-431A-F0CC-9B22-F5870D7C3C16" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
+</associations>
+</Column>
+<Column name="Tipo_de_cuenta_Tipo_de_cuenta_ID" id="9689217E-0CB3-E777-BB37-9DC4E3D63121">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8BC7ABE-D116-8BC3-BBD5-8162838C497B" name="Cuentas_cliente_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>ABD95F77-3CD6-06A9-8FC8-E7B4F8470CED</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5019CD7-1A98-85C2-FFBA-56AE5CBEAF41"/>
+<colUsage columnID="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABA7D4BB-BF77-F8D3-861A-4B5C171F9F5F" name="Cuentas_cliente__IDX">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9689217E-0CB3-E777-BB37-9DC4E3D63121"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A50DDA-992F-61A7-A52C-425D3BE8CC51" name="Cuentas_cliente_Clientes_FK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>C6C3A2F5-F5C0-D381-957D-2F15997A340F</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4587ADB4-5060-10EB-6C92-911FA393EB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298A0E64-B3D2-F552-FFF8-57AE77C1FB38" name="Municipio">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>62758E20-6F6B-98BF-40F2-6BB5882306E1</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="543D69BA-3DB4-F44C-F75D-AB0E6212F0D3">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>299D0D5F-F2E7-F77C-0451-EEEDD8A9714F</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_departamento" id="CC899877-A2C8-ED38-A63C-A9A105488B21">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>B5A100BA-E57F-F6C3-2FAB-79EF9579ADCD</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="393C71E0-A074-B37D-7BD4-379D08651A4D">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>CD578BA6-6444-BD4D-171B-9A48E484172C</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamentos_ID" id="8B63E7E5-6FE9-A312-843F-AF486F368AE4">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>843F4B5C-BFFB-4E88-37E5-239845AC67D9</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BCEB582-380A-06A1-C3F7-ED2FB77EEDEC" referredColumn="58E06CDB-4A84-0C79-1D10-3B7C3A97106C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C38202C2-9FD6-B1C5-4049-ACE0C9460300" name="Municipio_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>2B3B667A-7168-60FF-32FB-BD4A7EF422DA</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543D69BA-3DB4-F44C-F75D-AB0E6212F0D3"/>
+<colUsage columnID="CC899877-A2C8-ED38-A63C-A9A105488B21"/>
+<colUsage columnID="8B63E7E5-6FE9-A312-843F-AF486F368AE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337F9AB1-FE08-5760-BD7A-C0A2EE500C10" name="Municipio_Departamentos_FK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>F70DA112-F8CD-02E4-867C-B01A49C98E04</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B63E7E5-6FE9-A312-843F-AF486F368AE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

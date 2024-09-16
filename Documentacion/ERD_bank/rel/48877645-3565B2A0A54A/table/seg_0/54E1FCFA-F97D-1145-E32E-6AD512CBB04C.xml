@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54E1FCFA-F97D-1145-E32E-6AD512CBB04C" name="Tarjetas_de_credito">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>0726FC24-6188-40B3-40A3-18D71188CC82</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5A5E1323-3895-E9B2-CD4A-647F3C81B7EE">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>A1437AB8-4445-6AA9-BC21-2B015BA3D798</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Cliente" id="DE8382A7-FBAE-F605-D007-B818044F7D02">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>A652206D-0964-938A-7F05-547D07AFC6F2</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_tarjeta" id="F4E64D9D-5AFD-BFFC-4469-9C7394175A01">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>49FE6C37-1065-8D5B-845E-EF7ECEE4607F</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Limite_credito" id="57B05E31-0843-A3F2-A42A-32F9C13B641F">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>97D356BC-66C1-719F-68DE-D1CC460EC33B</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo_actual" id="1DB0D223-067D-0AC4-EBF3-7EEDAB5724B1">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>4CA84606-1AC1-387E-9235-85D34C68E94F</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_emision" id="E6E8D024-F486-6E57-1664-C0F8A4AA6B12">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>88B9B778-E14F-4846-E436-8F7E794A04D7</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_expiracion" id="DB1E1B7C-11C6-2A2F-4704-EF10B54E5B20">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>A3621C4F-C68B-7A39-633F-162C37E0DBB0</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_corte" id="63AA4583-8C81-0068-CCAB-7A849EBF4F6B">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>9C1B82A8-7321-C392-B2F0-8FFFD285D5E2</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dia_ciclo" id="E3EDE24F-295C-01DB-6A78-CBD84933CF68">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>5D663116-8FD7-1E24-CBD9-CC7B3C4009DA</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_ID" id="10043B4A-F886-2251-F02C-C34428505A0D">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>15D4FF5E-C1E2-761C-E802-3A6706FCA60B</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_Tarjeta_Credito_ID" id="182B143C-83B0-C77D-2FA5-2106133098D8">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>64CFC206-0E23-3F75-6DE3-388E570B51DD</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2FE47B9-3BB1-D760-2B96-0E39AA1CED01" name="Tarjetas_de_credito_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>547908A0-3B95-E4BD-F1AC-FE23108FBD14</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A5E1323-3895-E9B2-CD4A-647F3C81B7EE"/>
+<colUsage columnID="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B606CD5-7B47-F243-9141-5FC266295F1F" name="Tarjetas_de_credito__IDX">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A833F651-00FA-AEE1-FD89-19854B33F576</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="10043B4A-F886-2251-F02C-C34428505A0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25379E5F-9F9D-ED84-CD8F-2CE1777DB1E3" name="Tarjetas_de_credito__IDXv1">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="182B143C-83B0-C77D-2FA5-2106133098D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

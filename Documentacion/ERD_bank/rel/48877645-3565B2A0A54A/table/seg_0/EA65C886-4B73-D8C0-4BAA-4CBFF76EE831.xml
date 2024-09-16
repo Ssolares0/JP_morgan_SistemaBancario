@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA65C886-4B73-D8C0-4BAA-4CBFF76EE831" name="Empleados">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>6A0A059C-0AB2-D81D-2144-95A955B9B1A5</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D0A08D64-9A84-3768-DBC9-E2648ABF4ECE">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>D903AFD5-A663-147C-0CCB-4711B292C3C9</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="6E0BFC2A-0F32-8492-F427-97C1DB8334F8">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>1373F32A-B145-3815-116D-2AB5DAF1F44A</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="A3745DAB-850B-BA46-BAB2-DF5F23DE3711">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>9998D155-550B-0CA5-8910-6A4E22C42AD3</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="8471A99A-5AFB-4000-51A6-08A79305E913">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>23E04642-A0C4-1756-2368-064E074BB7C8</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento" id="C500185E-7E23-DAC4-F0B4-3EE08F9BCD16">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>119C6BE1-7F22-D8A5-91D7-15592007CE86</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal" id="6166473A-4BF0-5824-F431-63ACD26A2C05">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>B82AAB34-595D-5EC4-8613-5DDE121477A8</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursales_o_agencias_ID" id="A0DEAA00-0DE7-9FB6-04CC-6688064BCB4C">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>6AE64B1E-A2CA-A070-FBD0-00C1705C719D</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamentos_ID" id="BF623B21-8514-554A-9854-5E7E90E8F474">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>C6EDACD2-7D2B-784F-319C-AD3B5060EBAB</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAAD523E-CF5A-F87E-0C1F-CD6DF82ED796" referredColumn="58E06CDB-4A84-0C79-1D10-3B7C3A97106C"/>
+</associations>
+</Column>
+<Column name="Rol_ID" id="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>01507564-4FA6-1EF9-01E6-96854E546608</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB7EF05D-CDB0-1941-8811-613270DA7F87" referredColumn="10A25653-1D1B-9002-4DBD-C9150C0A7B12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BECC5E87-6589-8CF3-1509-C713CE3ACBD5" name="Empleados_PK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>8780D058-F4FB-10F9-C822-F23BE12300AE</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0A08D64-9A84-3768-DBC9-E2648ABF4ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE96134E-C15E-A528-A442-AC0676E8D6C6" name="Empleados__IDX">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A0DEAA00-0DE7-9FB6-04CC-6688064BCB4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53072DF7-4BFA-3F6E-8C3B-9113AFAD85C2" name="Empleados_Departamentos_FK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>1C8C6C5D-2854-442B-9EF8-80226CA71BDF</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF623B21-8514-554A-9854-5E7E90E8F474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB471C9A-B5B1-37E6-06E5-DB5CCB3A8294" name="Empleados_Rol_FK">
+<createdBy>Sebastian S</createdBy>
+<createdTime>2024-09-16 03:04:29 UTC</createdTime>
+<generatorID>A1A34323-1661-BCC1-88DB-9F61D74B9164</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
