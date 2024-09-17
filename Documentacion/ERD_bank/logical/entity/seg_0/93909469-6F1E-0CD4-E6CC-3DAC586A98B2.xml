@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93909469-6F1E-0CD4-E6CC-3DAC586A98B2" name="Estado del prestamo">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93909469-6F1E-0CD4-E6CC-3DAC586A98B2" name="Estado de los prestamos">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 05:15:48 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -55,7 +55,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -78,27 +78,29 @@
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>A652206D-0964-938A-7F05-547D07AFC6F2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="3BC2C505-1F03-3A64-ED67-50CFC5D11139">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:17:34 UTC</createdTime>
+<Attribute name="ID1" id="B6A691AC-7DCE-C15E-25C3-B28C084A7340">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 21:13:54 UTC</createdTime>
 <generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>AF63BEE6-6CAB-D617-EED7-D383B9F6034E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

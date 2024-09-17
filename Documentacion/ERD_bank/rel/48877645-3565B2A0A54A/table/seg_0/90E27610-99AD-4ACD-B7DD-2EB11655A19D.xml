@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90E27610-99AD-4ACD-B7DD-2EB11655A19D" name="Estado_del_prestamo">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90E27610-99AD-4ACD-B7DD-2EB11655A19D" name="Estado_de_los_prestamos">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>93909469-6F1E-0CD4-E6CC-3DAC586A98B2</generatorID>
@@ -46,12 +46,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F9F591E4-D5D0-D39C-43E2-D947589204EA" referredColumn="7A727472-3039-7780-7F57-C508040E8F5F"/>
+<colAssociation fkAssociation="3DF20930-76B3-328A-4E12-ADFCB72891A8" referredColumn="7A727472-3039-7780-7F57-C508040E8F5F"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13F801B8-1D1A-4740-A7A4-95D16BF014A0" name="Estado_del_prestamo_PKv1">
+<ind_PK_UK id="13F801B8-1D1A-4740-A7A4-95D16BF014A0" name="Estado_de_los_prestamos_PK">
 <createdBy>miste</createdBy>
 <createdTime>2024-09-17 04:56:50 UTC</createdTime>
 <generatorID>998BE5F7-3405-F1FD-11F1-2CA07296422F</generatorID>
@@ -85,9 +85,9 @@
 <colUsage columnID="42487B42-E77E-C0A2-6F71-0CAEA7FFBEA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C2FD2C72-6EAB-2A6E-60B3-6BAA51A59387" name="Estado_del_prestamo_Prestamos_FK">
+<ind_PK_UK id="2B3D0593-E3BF-06E0-9316-D85E15C4D74A" name="Estado_de_los_prestamos_Prestamos_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>EE953588-F771-4DD2-6DD2-3E115C131C01</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

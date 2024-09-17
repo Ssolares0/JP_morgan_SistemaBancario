@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB7EF05D-CDB0-1941-8811-613270DA7F87" containerWithKeyObject="EA65C886-4B73-D8C0-4BAA-4CBFF76EE831" localFKIndex="CB471C9A-B5B1-37E6-06E5-DB5CCB3A8294" name="Empleados_Rol_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB7EF05D-CDB0-1941-8811-613270DA7F87" containerWithKeyObject="EA65C886-4B73-D8C0-4BAA-4CBFF76EE831" localFKIndex="CB471C9A-B5B1-37E6-06E5-DB5CCB3A8294" name="Empleados_Roles_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>A1A34323-1661-BCC1-88DB-9F61D74B9164</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<referredTableLongName>Rol</referredTableLongName>
+<referredTableLongName>Roles</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>1DB8389C-779D-D5DC-3EAC-8BC8563298E7</referredTableID>
 <keyObject>C2D8C471-5BA9-69BA-C78E-E93844ED1257</keyObject>

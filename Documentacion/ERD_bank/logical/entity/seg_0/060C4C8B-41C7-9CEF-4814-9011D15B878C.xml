@@ -127,20 +127,6 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID2" id="1E10F840-7663-DBA4-AE09-A5864256C1AF">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:17:36 UTC</createdTime>
-<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID1" id="3BF26FB7-66D5-502F-7FB8-0458F012FD21">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 19:24:42 UTC</createdTime>
@@ -150,6 +136,22 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <referedAttribute>C6268F4E-335E-F852-1ACC-C87A1A1771EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="12A23EE3-BF9A-AC68-60F0-AFB28216B934">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 21:14:04 UTC</createdTime>
+<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

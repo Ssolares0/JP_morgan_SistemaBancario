@@ -104,14 +104,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="EAAD523E-CF5A-F87E-0C1F-CD6DF82ED796" referredColumn="58E06CDB-4A84-0C79-1D10-3B7C3A97106C"/>
 </associations>
 </Column>
-<Column name="Rol_ID" id="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0">
+<Column name="Roles_ID" id="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>01507564-4FA6-1EF9-01E6-96854E546608</generatorID>
@@ -120,7 +120,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -132,15 +132,16 @@
 <createdTime>2024-09-17 04:56:50 UTC</createdTime>
 <generatorID>D1346DBC-501E-112D-59D4-26EE8F4E6D61</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6DF4723B-EE29-3FEE-8676-0B3DF0A9AB5F" referredColumn="FB57D623-729B-C207-0BEC-B565FF6EA76E"/>
+<colAssociation fkAssociation="BCE9E396-67FF-F8B6-8C3C-688F7A8C75CD" referredColumn="FB57D623-729B-C207-0BEC-B565FF6EA76E"/>
 </associations>
 </Column>
 <Column name="Rol" id="B29ADBE9-A4CF-083C-D5AF-60F57127A071">
@@ -203,7 +204,7 @@
 <colUsage columnID="BF623B21-8514-554A-9854-5E7E90E8F474"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CB471C9A-B5B1-37E6-06E5-DB5CCB3A8294" name="Empleados_Rol_FK">
+<ind_PK_UK id="CB471C9A-B5B1-37E6-06E5-DB5CCB3A8294" name="Empleados_Roles_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>A1A34323-1661-BCC1-88DB-9F61D74B9164</generatorID>
@@ -214,9 +215,9 @@
 <colUsage columnID="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE1EBE25-90AC-9A0E-2F84-F132B5A8CDFB" name="Empleados_Sucursales_o_agencias_FK">
+<ind_PK_UK id="F92BB4E3-B74E-B02D-C53E-35FBED4BC152" name="Empleados_Sucursales_o_agencias_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

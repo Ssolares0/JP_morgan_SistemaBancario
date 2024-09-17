@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD7516B-3213-13AC-5BA9-70B921BA4D97" containerWithKeyObject="76553D75-222C-3B8A-8735-7A3BE715A069" localFKIndex="38560B8E-1941-D7EE-49F5-3523A530CD93" name="Transacciones_Tipo_transaccion_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CD7516B-3213-13AC-5BA9-70B921BA4D97" containerWithKeyObject="76553D75-222C-3B8A-8735-7A3BE715A069" localFKIndex="38560B8E-1941-D7EE-49F5-3523A530CD93" name="Transacciones_Tipo_de_transacciones_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>7D8EE5E9-14A6-8EEC-C33C-22F066BFEF73</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<referredTableLongName>Tipo_transaccion</referredTableLongName>
+<referredTableLongName>Tipo_de_transacciones</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>6CF867C5-BC1D-64CC-29DC-C88619427177</referredTableID>
 <keyObject>62235F10-49C3-3826-8CBB-8A9CAD8CED6F</keyObject>

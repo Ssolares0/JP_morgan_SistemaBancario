@@ -77,11 +77,12 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>1580E8D2-61AD-4DD0-39F3-D289A6816DAE</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -93,15 +94,16 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>ADF9819B-C28C-07AA-7AA6-C384ECBEEF99</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4C5F13E7-3428-ADE2-358A-8968E1B8162D" referredColumn="D0A08D64-9A84-3768-DBC9-E2648ABF4ECE"/>
+<colAssociation fkAssociation="8AE5AD62-CBF5-4493-E3A8-C1AEFD9ECEA0" referredColumn="D0A08D64-9A84-3768-DBC9-E2648ABF4ECE"/>
 </associations>
 </Column>
 </columns>
@@ -140,9 +142,9 @@
 <colUsage columnID="8C18C29C-16E6-0FA1-9B3A-6E92C1623D57"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ADF35261-16A7-C6C7-F3B7-B21BBD866D34" name="Sucursales_o_agencias_Empleados_FK">
+<ind_PK_UK id="ACADDE02-867C-D9E6-46BB-D10E56123BDB" name="Sucursales_o_agencias_Empleados_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

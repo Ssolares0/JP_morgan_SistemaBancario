@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7ECBD94-19FA-39A1-9082-B7F79AF35F3C" name="Tipo de cuenta">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7ECBD94-19FA-39A1-9082-B7F79AF35F3C" name="Tipo de cuentas">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:13:35 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>

@@ -127,6 +127,7 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>15D4FF5E-C1E2-761C-E802-3A6706FCA60B</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -135,10 +136,10 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="50615001-10F7-23AD-829D-5F9D16BD50EB" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
+<colAssociation fkAssociation="47173421-D08F-BA6D-9AD7-DF54074A7B1A" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
 </associations>
 </Column>
-<Column name="Estado_Tarjeta_Credito_ID" id="182B143C-83B0-C77D-2FA5-2106133098D8">
+<Column name="Estado_Tarjeta_Creditos_ID" id="182B143C-83B0-C77D-2FA5-2106133098D8">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>64CFC206-0E23-3F75-6DE3-388E570B51DD</generatorID>
@@ -147,11 +148,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5FFBBC12-E2D9-A52E-D1E2-B7FAB15FA445" referredColumn="528B3F39-EDD9-0581-A49C-0CADE2818358"/>
+<colAssociation fkAssociation="A8769397-01D2-89A6-6B38-BA76EA144A64" referredColumn="528B3F39-EDD9-0581-A49C-0CADE2818358"/>
 </associations>
 </Column>
 </columns>
@@ -190,9 +191,9 @@
 <colUsage columnID="182B143C-83B0-C77D-2FA5-2106133098D8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0623D122-EFF8-6F1A-EA5B-6C4DA334C98E" name="Tarjetas_de_credito_Clientes_FK">
+<ind_PK_UK id="69E481C1-E216-8540-2CD4-977A73677B27" name="Tarjetas_de_credito_Clientes_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>
@@ -201,9 +202,9 @@
 <colUsage columnID="10043B4A-F886-2251-F02C-C34428505A0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BF88F9C2-2D70-ED7D-74CA-F68BB421E7F8" name="Tarjetas_de_credito_Estado_Tarjeta_Credito_FK">
+<ind_PK_UK id="4ED3669F-1D26-FA74-9484-CB5C9B615770" name="Tarjetas_de_credito_Estado_Tarjeta_Creditos_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

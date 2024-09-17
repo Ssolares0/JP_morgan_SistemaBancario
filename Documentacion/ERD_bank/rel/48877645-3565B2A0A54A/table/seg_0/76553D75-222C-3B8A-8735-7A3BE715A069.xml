@@ -131,14 +131,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="3A5EC1B4-6CA5-73BA-6521-76C49CE74E30" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
 </associations>
 </Column>
-<Column name="Tipo_transaccion_ID" id="C9A7B819-EA1F-A81D-40F5-E0305B97F830">
+<Column name="Tipo_de_transacciones_ID" id="C9A7B819-EA1F-A81D-40F5-E0305B97F830">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>57DF3F21-5057-F71D-4843-3329BC0BA17B</generatorID>
@@ -147,7 +147,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -173,7 +173,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -185,10 +185,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>FD6D8D44-8A9B-3FA3-3C5E-33CA4395F19D</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -203,7 +204,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -232,7 +234,7 @@
 <colUsage columnID="C9D07663-CF36-4F7E-E727-6FAD7B37255E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="38560B8E-1941-D7EE-49F5-3523A530CD93" name="Transacciones_Tipo_transaccion_FK">
+<ind_PK_UK id="38560B8E-1941-D7EE-49F5-3523A530CD93" name="Transacciones_Tipo_de_transacciones_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>7D8EE5E9-14A6-8EEC-C33C-22F066BFEF73</generatorID>

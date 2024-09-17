@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298A0E64-B3D2-F552-FFF8-57AE77C1FB38" name="Municipio">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="298A0E64-B3D2-F552-FFF8-57AE77C1FB38" name="Municipios">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>62758E20-6F6B-98BF-40F2-6BB5882306E1</generatorID>
@@ -54,7 +54,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -77,7 +77,7 @@
 <colUsage columnID="8B63E7E5-6FE9-A312-843F-AF486F368AE4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="337F9AB1-FE08-5760-BD7A-C0A2EE500C10" name="Municipio_Departamentos_FK">
+<ind_PK_UK id="337F9AB1-FE08-5760-BD7A-C0A2EE500C10" name="Municipios_Departamentos_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>F70DA112-F8CD-02E4-867C-B01A49C98E04</generatorID>

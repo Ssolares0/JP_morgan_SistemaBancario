@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="567F8E25-13CA-B8CA-F36C-0C04BC919538" name="Estado_Tarjeta_Credito">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="567F8E25-13CA-B8CA-F36C-0C04BC919538" name="Estado_Tarjeta_Creditos">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>1E079EE4-DDA1-0FF2-971A-934CACCA09A9</generatorID>
@@ -52,11 +52,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="200B474B-C79C-8D53-8974-B237641AB5B1" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+<colAssociation fkAssociation="86F5D5F5-B0CF-1AE8-B03D-3D02C096D1A0" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
 </associations>
 </Column>
 </columns>
@@ -96,9 +96,9 @@
 <colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E6ADF624-1C91-1785-98EF-AB4304798FC9" name="Estado_Tarjeta_Credito_Tarjetas_de_credito_FK">
+<ind_PK_UK id="218FA47B-AA1C-4006-5758-8B06718DA263" name="Estado_Tarjeta_Creditos_Tarjetas_de_credito_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<createdTime>2024-09-17 21:18:48 UTC</createdTime>
 <generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>
