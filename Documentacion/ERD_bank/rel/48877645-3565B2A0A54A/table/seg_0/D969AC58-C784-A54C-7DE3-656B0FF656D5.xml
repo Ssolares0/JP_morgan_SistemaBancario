@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>F82B5B87-552E-95B9-3947-8CC7B29A6823</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nombre" id="31FEED50-29E6-5F25-C5DA-D1B5D9A5EEE2">
@@ -23,8 +26,11 @@
 <generatorID>C9330403-472B-1ED2-EC29-D58A04F73F70</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="apellido" id="054367C3-5DF3-B69F-BAC0-97C3096A89DD">
@@ -33,8 +39,11 @@
 <generatorID>6A98B660-5D90-33DF-57C1-4723A8194F99</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Telefono" id="28DF696C-14FF-4453-3582-FCEF662BEF11">
@@ -43,8 +52,11 @@
 <generatorID>937DFF90-0593-D7EA-D6EE-884C74F28BE1</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tarjetas_de_credito_ID" id="3C5550BE-8281-DD09-24ED-E69B6A29D920">
@@ -62,20 +74,32 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>D0960755-FD5A-DE9F-6D63-0D442D600929</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73F5E6C9-9C72-2F2D-8BBE-772F37E4E19C" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+</associations>
 </Column>
 <Column name="Prestamos_ID" id="36B54C46-1B14-BB5A-5B86-EEDA9294A51E">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>3BC2C505-1F03-3A64-ED67-50CFC5D11139</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83AD7103-E450-0266-72E9-4179560BA249" referredColumn="7A727472-3039-7780-7F57-C508040E8F5F"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -111,6 +135,39 @@
 <relationGeneratorID>A833F651-00FA-AEE1-FD89-19854B33F576</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="3C5550BE-8281-DD09-24ED-E69B6A29D920"/>
+<colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3786438C-F580-E66D-9A75-B825943B9937" name="Clientes__IDX">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A833F651-00FA-AEE1-FD89-19854B33F576</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F54429B-30AA-8DEE-D233-A6AA1F1E9460" name="Clientes_Prestamos_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B54C46-1B14-BB5A-5B86-EEDA9294A51E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="586E9463-2565-5BA9-182B-F821F2D61AD5" name="Clientes_Tarjetas_de_credito_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
 <colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
 </indexColumnUsage>
 </ind_PK_UK>

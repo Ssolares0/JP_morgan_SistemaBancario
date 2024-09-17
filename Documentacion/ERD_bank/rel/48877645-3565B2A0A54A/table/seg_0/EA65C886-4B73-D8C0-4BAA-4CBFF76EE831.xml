@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>D903AFD5-A663-147C-0CCB-4711B292C3C9</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nombre" id="6E0BFC2A-0F32-8492-F427-97C1DB8334F8">
@@ -23,8 +26,11 @@
 <generatorID>1373F32A-B145-3815-116D-2AB5DAF1F44A</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Apellido" id="A3745DAB-850B-BA46-BAB2-DF5F23DE3711">
@@ -33,8 +39,11 @@
 <generatorID>9998D155-550B-0CA5-8910-6A4E22C42AD3</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Telefono" id="8471A99A-5AFB-4000-51A6-08A79305E913">
@@ -43,8 +52,11 @@
 <generatorID>23E04642-A0C4-1756-2368-064E074BB7C8</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Departamento" id="C500185E-7E23-DAC4-F0B4-3EE08F9BCD16">
@@ -53,8 +65,11 @@
 <generatorID>119C6BE1-7F22-D8A5-91D7-15592007CE86</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sucursal" id="6166473A-4BF0-5824-F431-63ACD26A2C05">
@@ -63,8 +78,11 @@
 <generatorID>B82AAB34-595D-5EC4-8613-5DDE121477A8</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Sucursales_o_agencias_ID" id="A0DEAA00-0DE7-9FB6-04CC-6688064BCB4C">
@@ -82,7 +100,10 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>C6EDACD2-7D2B-784F-319C-AD3B5060EBAB</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -95,13 +116,45 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>01507564-4FA6-1EF9-01E6-96854E546608</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="AB7EF05D-CDB0-1941-8811-613270DA7F87" referredColumn="10A25653-1D1B-9002-4DBD-C9150C0A7B12"/>
 </associations>
+</Column>
+<Column name="Sucursales_o_agencias_ID2" id="A96D858E-A444-8DE7-FD61-B7A15B6EE017">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>D1346DBC-501E-112D-59D4-26EE8F4E6D61</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DF4723B-EE29-3FEE-8676-0B3DF0A9AB5F" referredColumn="FB57D623-729B-C207-0BEC-B565FF6EA76E"/>
+</associations>
+</Column>
+<Column name="Rol" id="B29ADBE9-A4CF-083C-D5AF-60F57127A071">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>377E4716-BF8E-40C5-2789-B46EB7148AE4</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -128,6 +181,17 @@
 <colUsage columnID="A0DEAA00-0DE7-9FB6-04CC-6688064BCB4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="B12151CB-0693-0665-04D3-8BAC2FA74D72" name="Empleados__IDX">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A96D858E-A444-8DE7-FD61-B7A15B6EE017"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="53072DF7-4BFA-3F6E-8C3B-9113AFAD85C2" name="Empleados_Departamentos_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
@@ -148,6 +212,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="53E452B1-DE2C-4FA7-B095-A1A8585F7BF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE1EBE25-90AC-9A0E-2F84-F132B5A8CDFB" name="Empleados_Sucursales_o_agencias_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A96D858E-A444-8DE7-FD61-B7A15B6EE017"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

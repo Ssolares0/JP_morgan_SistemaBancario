@@ -14,8 +14,11 @@
 <generatorID>402921C5-F84B-A419-4505-7FD1355257AF</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tipo_cuenta" id="AD0431FF-458B-DF0F-07E8-02A4387A6699">
@@ -24,8 +27,11 @@
 <generatorID>27AFF25A-8AC9-C20C-4875-0AFC982ADBCE</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Cuentas_cliente_ID" id="454AD976-8DC2-80A5-040F-6A6A4331A959">
@@ -33,20 +39,32 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>AB31D0E8-6099-C3BE-6437-4A94BF3292BD</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A23C268-1876-24C5-C05E-835B5AC0267B" referredColumn="C5019CD7-1A98-85C2-FFBA-56AE5CBEAF41"/>
+</associations>
 </Column>
 <Column name="Cuentas_cliente_ID_tipoCuenta" id="4B061C6C-A5BA-844A-D2B9-DD8FB32C6ED7">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>10B07C25-5F5F-54D3-8D17-191CC4F8FD3B</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A23C268-1876-24C5-C05E-835B5AC0267B" referredColumn="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D"/>
+</associations>
 </Column>
 <Column name="Tipo_de_cuenta_ID" id="B384DB2A-7AAA-89DD-3D6F-D08A5751528D">
 <createdBy>Sebastian S</createdBy>
@@ -80,6 +98,18 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="454AD976-8DC2-80A5-040F-6A6A4331A959"/>
+<colUsage columnID="4B061C6C-A5BA-844A-D2B9-DD8FB32C6ED7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A8B27F5-8A54-D0B9-EDC3-C7F105E53A0D" name="Tipo_de_cuenta_Cuentas_cliente_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="454AD976-8DC2-80A5-040F-6A6A4331A959"/>
 <colUsage columnID="4B061C6C-A5BA-844A-D2B9-DD8FB32C6ED7"/>

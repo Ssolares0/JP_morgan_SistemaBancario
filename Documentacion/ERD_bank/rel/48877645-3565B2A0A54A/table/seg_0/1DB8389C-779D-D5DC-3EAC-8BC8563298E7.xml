@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>B76C9B3C-2E82-E768-2312-30BDD9A2FA76</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Rol" id="1C1053AF-7D97-CFFA-EC12-A1E9EE1D79D5">
@@ -23,8 +26,11 @@
 <generatorID>67298124-36AF-C9AA-C6C2-89DB0C047D19</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

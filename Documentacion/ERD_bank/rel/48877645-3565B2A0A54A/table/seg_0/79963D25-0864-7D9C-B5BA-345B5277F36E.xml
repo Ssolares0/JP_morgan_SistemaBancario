@@ -39,8 +39,12 @@
 <generatorID>4782A13F-9126-7D97-E8CE-C040DE2FE32D</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tasa_interes" id="37F4D04B-0C40-D05E-689D-DDDFBFE4D4A6">
@@ -49,8 +53,12 @@
 <generatorID>967ED930-F042-0F7B-EBDD-D40AD3DF911D</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Fecha_desembolso" id="F0BF4AF8-64FF-239B-5C8F-588C4119FF3A">
@@ -59,7 +67,9 @@
 <generatorID>6399CC53-E906-9165-5FBB-9ECB90CA81B4</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -69,7 +79,9 @@
 <generatorID>EAD1C49A-3D80-C1F0-848F-A8E44A47DF7C</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -79,8 +91,12 @@
 <generatorID>373054BE-75EE-68DD-1146-2E9C5968A88F</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Estado_prestamo" id="A14FD68E-CDA8-5884-FBFD-58AC9127BFB8">
@@ -89,8 +105,11 @@
 <generatorID>317FBBC4-2022-92AB-E640-EC506AAFA83A</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Estado_del_prestamo_ID" id="84557B5C-5349-7449-E2F7-C81FED4DC4CE">
@@ -108,10 +127,32 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>1E10F840-7663-DBA4-AE09-A5864256C1AF</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE51A394-9D09-2157-39CA-5DADAEDE08A1" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
+</associations>
+</Column>
+<Column name="Estado_del_prestamo_ID2" id="61D0D1B0-33EE-5E2C-650D-220BD7F4539B">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>3BF26FB7-66D5-502F-7FB8-0458F012FD21</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="093AE140-5C27-A40C-D7B9-8469A3EFA042" referredColumn="50C92011-8AD7-EE52-2390-09F69D39A6E8"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -145,6 +186,39 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="712B243C-C896-E9D2-E262-DF661758AE10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE540979-F4A4-76D0-01AB-B735B6F68B79" name="Prestamos__IDX">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EE953588-F771-4DD2-6DD2-3E115C131C01</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="61D0D1B0-33EE-5E2C-650D-220BD7F4539B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="347E339E-8057-0A55-7D6D-C5CAF3F8AF18" name="Prestamos_Estado_del_prestamo_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>EE953588-F771-4DD2-6DD2-3E115C131C01</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61D0D1B0-33EE-5E2C-650D-220BD7F4539B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="486EF598-DFBD-8F3E-1B31-9E0345AB9C86" name="Prestamos_Clientes_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="712B243C-C896-E9D2-E262-DF661758AE10"/>
 </indexColumnUsage>

@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>3E96B72E-86D9-DEAC-9BAE-6A2AB1ABFAD1</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Numero_Cuenta" id="37F18DC4-D9CA-0431-1EE2-C4CD0E139981">
@@ -23,8 +26,11 @@
 <generatorID>2CB35246-7CC9-84C9-01E5-62285074A404</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_tipoCuenta" id="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D">
@@ -32,8 +38,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>BB4B925B-773C-B10D-3173-01743DBB10DA</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Saldo" id="C27ABAE7-FE53-FAAC-B65C-412D833AEB72">
@@ -42,8 +51,12 @@
 <generatorID>5DB38154-AD51-0D36-5E57-D04E3622478E</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Clientes_ID" id="4587ADB4-5060-10EB-6C92-911FA393EB62">
@@ -51,7 +64,10 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>97F9232B-0147-C515-9BA2-A16DF156FC30</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -69,6 +85,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="207A968C-FEF9-E622-A179-10EA4866D5EF" referredColumn="B384DB2A-7AAA-89DD-3D6F-D08A5751528D"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -105,6 +124,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4587ADB4-5060-10EB-6C92-911FA393EB62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="896A08F0-63DC-B4E0-FF4A-7841A44486DD" name="Cuentas_cliente_Tipo_de_cuenta_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9689217E-0CB3-E777-BB37-9DC4E3D63121"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>299D0D5F-F2E7-F77C-0451-EEEDD8A9714F</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_departamento" id="CC899877-A2C8-ED38-A63C-A9A105488B21">
@@ -22,8 +25,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>B5A100BA-E57F-F6C3-2FAB-79EF9579ADCD</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nombre" id="393C71E0-A074-B37D-7BD4-379D08651A4D">
@@ -32,8 +38,11 @@
 <generatorID>CD578BA6-6444-BD4D-171B-9A48E484172C</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Departamentos_ID" id="8B63E7E5-6FE9-A312-843F-AF486F368AE4">
@@ -41,7 +50,10 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>843F4B5C-BFFB-4E88-37E5-239845AC67D9</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>

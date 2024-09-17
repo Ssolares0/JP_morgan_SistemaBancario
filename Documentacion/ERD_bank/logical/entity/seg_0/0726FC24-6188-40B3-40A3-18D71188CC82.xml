@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Cliente" id="A652206D-0964-938A-7F05-547D07AFC6F2">
 <createdBy>Sebastian S</createdBy>
@@ -32,8 +35,11 @@
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Numero_tarjeta" id="49FE6C37-1065-8D5B-845E-EF7ECEE4607F">
 <createdBy>Sebastian S</createdBy>
@@ -43,8 +49,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Limite_credito" id="97D356BC-66C1-719F-68DE-D1CC460EC33B">
 <createdBy>Sebastian S</createdBy>
@@ -54,8 +63,12 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Saldo_actual" id="4CA84606-1AC1-387E-9235-85D34C68E94F">
 <createdBy>Sebastian S</createdBy>
@@ -65,8 +78,12 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Fecha_emision" id="88B9B778-E14F-4846-E436-8F7E794A04D7">
 <createdBy>Sebastian S</createdBy>
@@ -76,7 +93,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Fecha_expiracion" id="A3621C4F-C68B-7A39-633F-162C37E0DBB0">
@@ -87,7 +106,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Fecha_corte" id="9C1B82A8-7321-C392-B2F0-8FFFD285D5E2">
@@ -98,7 +119,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Dia_ciclo" id="5D663116-8FD7-1E24-CBD9-CC7B3C4009DA">
@@ -109,8 +132,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="15D4FF5E-C1E2-761C-E802-3A6706FCA60B">
 <createdBy>Sebastian S</createdBy>
@@ -121,10 +147,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID2" id="64CFC206-0E23-3F75-6DE3-388E570B51DD">
 <createdBy>Sebastian S</createdBy>
@@ -135,7 +162,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <referedAttribute>EDCAAF5F-77E2-285B-3CA5-13C7E73FB997</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -149,7 +178,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A1437AB8-4445-6AA9-BC21-2B015BA3D798</attributeRef>
 <attributeRef>A652206D-0964-938A-7F05-547D07AFC6F2</attributeRef>
 </usedAttributes>
 </identifier>

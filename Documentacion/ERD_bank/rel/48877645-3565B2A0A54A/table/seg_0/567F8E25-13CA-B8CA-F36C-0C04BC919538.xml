@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>EDCAAF5F-77E2-285B-3CA5-13C7E73FB997</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Estado" id="9428452A-E0CE-6FE4-398B-F9DF08E0BC0C">
@@ -23,8 +26,11 @@
 <generatorID>576DE4B8-7303-6BAD-F386-EBCC9F31DC55</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tarjetas_de_credito_ID" id="C5EE3A0B-711D-8B48-1C77-888D35B2C23E">
@@ -42,10 +48,16 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>25CD7E1B-3C47-E4DE-6660-AC60303CFF2C</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="200B474B-C79C-8D53-8974-B237641AB5B1" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -70,6 +82,28 @@
 <relationGeneratorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="C5EE3A0B-711D-8B48-1C77-888D35B2C23E"/>
+<colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56783105-3468-C7C1-EC10-89F11D9AC68C" name="Estado_Tarjeta_Credito__IDXv1">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6ADF624-1C91-1785-98EF-AB4304798FC9" name="Estado_Tarjeta_Credito_Tarjetas_de_credito_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
 <colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
 </indexColumnUsage>
 </ind_PK_UK>

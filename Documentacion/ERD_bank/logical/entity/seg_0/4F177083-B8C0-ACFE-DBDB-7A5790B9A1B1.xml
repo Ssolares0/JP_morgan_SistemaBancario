@@ -22,8 +22,11 @@
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nombre" id="D0FC7E3F-31EA-4C30-DF71-C65F11389BA8">
 <createdBy>Sebastian S</createdBy>
@@ -33,8 +36,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Tipo" id="1B191BDC-B990-3C80-C8E7-21BE1DC5673A">
 <createdBy>Sebastian S</createdBy>
@@ -44,8 +50,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Telefono" id="B6E0DD8A-3715-818D-D59C-C7D89E7A7757">
 <createdBy>Sebastian S</createdBy>
@@ -55,8 +64,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_departamento" id="CF6E510E-3CFC-60B7-FE36-8937165ADEEB">
 <createdBy>Sebastian S</createdBy>
@@ -66,8 +78,11 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID1" id="1580E8D2-61AD-4DD0-39F3-D289A6816DAE">
 <createdBy>Sebastian S</createdBy>
@@ -78,7 +93,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <referedAttribute>DB244939-7853-0992-2824-73D9975A215D</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID2" id="ADF9819B-C28C-07AA-7AA6-C384ECBEEF99">
@@ -90,7 +107,9 @@
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
 <referedAttribute>D903AFD5-A663-147C-0CCB-4711B292C3C9</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -99,8 +118,9 @@
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 05:04:03 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -13,8 +13,11 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>6A282DA6-338E-5844-CD74-E8917BE4127F</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nombre" id="D85BDC66-E0DD-9AE8-9C51-641E051BB98D">
@@ -23,8 +26,11 @@
 <generatorID>D0FC7E3F-31EA-4C30-DF71-C65F11389BA8</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Tipo" id="C3170206-3B90-25D1-5287-0BBAAF407F63">
@@ -33,8 +39,11 @@
 <generatorID>1B191BDC-B990-3C80-C8E7-21BE1DC5673A</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Telefono" id="0D06CFAB-BE6A-1450-CC67-43F3C913A963">
@@ -43,8 +52,11 @@
 <generatorID>B6E0DD8A-3715-818D-D59C-C7D89E7A7757</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_departamento" id="C9DA9BF3-2F97-593F-3AA3-9E5A65555059">
@@ -53,8 +65,11 @@
 <generatorID>CF6E510E-3CFC-60B7-FE36-8937165ADEEB</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Departamentos_ID" id="8C18C29C-16E6-0FA1-9B3A-6E92C1623D57">
@@ -62,7 +77,10 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>1580E8D2-61AD-4DD0-39F3-D289A6816DAE</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -75,10 +93,16 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>ADF9819B-C28C-07AA-7AA6-C384ECBEEF99</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C5F13E7-3428-ADE2-358A-8968E1B8162D" referredColumn="D0A08D64-9A84-3768-DBC9-E2648ABF4ECE"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -114,6 +138,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8C18C29C-16E6-0FA1-9B3A-6E92C1623D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADF35261-16A7-C6C7-F3B7-B21BBD866D34" name="Sucursales_o_agencias_Empleados_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 04:56:50 UTC</createdTime>
+<generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57EF35CB-C441-B890-7B90-D58ADE1E6122"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
