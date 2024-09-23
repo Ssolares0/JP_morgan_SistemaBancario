@@ -41,7 +41,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Numero_tarjeta" id="49FE6C37-1065-8D5B-845E-EF7ECEE4607F">
+<Attribute name="Numero" id="49FE6C37-1065-8D5B-845E-EF7ECEE4607F">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:55:46 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -70,7 +70,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Saldo_actual" id="4CA84606-1AC1-387E-9235-85D34C68E94F">
+<Attribute name="Saldo" id="4CA84606-1AC1-387E-9235-85D34C68E94F">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:55:59 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -85,7 +85,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_emision" id="88B9B778-E14F-4846-E436-8F7E794A04D7">
+<Attribute name="Fecha_emi" id="88B9B778-E14F-4846-E436-8F7E794A04D7">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:56:06 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -98,7 +98,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha_expiracion" id="A3621C4F-C68B-7A39-633F-162C37E0DBB0">
+<Attribute name="Fecha_exp" id="A3621C4F-C68B-7A39-633F-162C37E0DBB0">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:56:11 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -167,7 +167,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
