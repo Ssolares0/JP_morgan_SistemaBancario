@@ -79,7 +79,7 @@ El objetivo principal de este proyecto es la creación de una bases de datos rel
 -- una tarjeta de credito tiene un estado de tarjeta de credito
 
 
-*****Prestamos *****
+*****Prestamos*****
 -- muchos prestamos puede tener un cliente
 -- muchos prestamos tiene un estado de prestamo
 
