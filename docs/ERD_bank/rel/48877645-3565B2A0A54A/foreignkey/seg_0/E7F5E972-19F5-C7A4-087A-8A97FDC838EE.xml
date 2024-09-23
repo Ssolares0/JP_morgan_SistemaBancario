@@ -9,7 +9,7 @@
 <referredTableID>434A4BF4-4A0F-5FF3-7F4F-CC7DABCCDED6</referredTableID>
 <keyObject>7C0250C8-4542-8E3D-E210-671B6118422D</keyObject>
 <referredKeyID>7C0250C8-4542-8E3D-E210-671B6118422D</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

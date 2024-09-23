@@ -70,54 +70,6 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Cliente" id="D0960755-FD5A-DE9F-6D63-0D442D600929">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:01:59 UTC</createdTime>
-<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>A652206D-0964-938A-7F05-547D07AFC6F2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="B6A691AC-7DCE-C15E-25C3-B28C084A7340">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:13:54 UTC</createdTime>
-<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>AF63BEE6-6CAB-D617-EED7-D383B9F6034E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID2" id="4CC89F8D-3212-309B-8965-07EC197F37CC">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 22:41:12 UTC</createdTime>
-<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>A1437AB8-4445-6AA9-BC21-2B015BA3D798</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3323333B-E691-91C6-7B3D-728679956B50" name="Clientes PK">

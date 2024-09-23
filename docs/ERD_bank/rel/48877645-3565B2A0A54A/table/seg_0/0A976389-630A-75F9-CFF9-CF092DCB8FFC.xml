@@ -13,7 +13,6 @@
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>402921C5-F84B-A419-4505-7FD1355257AF</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -47,7 +46,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E48F88D8-7F3C-D1F7-6D87-2E074004F842" referredColumn="C5019CD7-1A98-85C2-FFBA-56AE5CBEAF41"/>
+<colAssociation fkAssociation="43B4AB0A-BA26-8EEC-6A7C-71CDCA8B8A4F" referredColumn="C5019CD7-1A98-85C2-FFBA-56AE5CBEAF41"/>
 </associations>
 </Column>
 <Column name="Cuentas_cliente_ID_tipoCuenta" id="4B061C6C-A5BA-844A-D2B9-DD8FB32C6ED7">
@@ -63,7 +62,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E48F88D8-7F3C-D1F7-6D87-2E074004F842" referredColumn="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D"/>
+<colAssociation fkAssociation="43B4AB0A-BA26-8EEC-6A7C-71CDCA8B8A4F" referredColumn="3EE79F38-5C6C-7AD8-314D-28DEEC93C94D"/>
 </associations>
 </Column>
 <Column name="Tipo_de_cuenta_ID" id="B384DB2A-7AAA-89DD-3D6F-D08A5751528D">
@@ -81,12 +80,23 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C59826C-4621-B1BC-35EE-F78B0FC80C4A" name="Tipo_de_cuentas_ID_UN">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>267E679A-A9ED-3D54-30A3-2320B8DC3B51</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67310506-1D48-4EE4-CA9E-3588481ECD02"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5E123ED6-759F-8F43-2509-C02271DA4F0F" name="Tipo_de_cuenta_PK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
+<indexState>Unique Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="B384DB2A-7AAA-89DD-3D6F-D08A5751528D"/>
 </indexColumnUsage>
@@ -103,9 +113,9 @@
 <colUsage columnID="4B061C6C-A5BA-844A-D2B9-DD8FB32C6ED7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="42BA3ECC-1F9A-1411-385F-6D8FBDFA0FD7" name="Tipo_de_cuentas_Cuentas_cliente_FK">
+<ind_PK_UK id="8333A9AC-B3D0-21C1-77A0-BC0868FFCCC0" name="Tipo_de_cuentas_Cuentas_cliente_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
+<createdTime>2024-09-22 23:29:50 UTC</createdTime>
 <generatorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

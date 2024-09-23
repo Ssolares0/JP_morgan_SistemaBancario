@@ -132,7 +132,6 @@
 <createdTime>2024-09-17 04:56:50 UTC</createdTime>
 <generatorID>D1346DBC-501E-112D-59D4-26EE8F4E6D61</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

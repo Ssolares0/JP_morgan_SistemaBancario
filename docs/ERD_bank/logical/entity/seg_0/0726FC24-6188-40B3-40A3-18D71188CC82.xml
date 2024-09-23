@@ -138,22 +138,6 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="15D4FF5E-C1E2-761C-E802-3A6706FCA60B">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:01:56 UTC</createdTime>
-<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID2" id="64CFC206-0E23-3F75-6DE3-388E570B51DD">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 05:02:13 UTC</createdTime>
@@ -169,14 +153,31 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="5E70BC77-613C-C22D-DA86-043A68D5FFBD">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:19:02 UTC</createdTime>
+<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F82B5B87-552E-95B9-3947-8CC7B29A6823</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="547908A0-3B95-E4BD-F1AC-FE23108FBD14" name="Tarjetas de credito PK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:55:38 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

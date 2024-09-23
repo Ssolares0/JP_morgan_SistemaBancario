@@ -162,12 +162,25 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="BD175F72-5445-BA57-66C5-AC5113E0ACE8" referredColumn="155B8825-6C18-2B9D-1F4E-268A396FEF3C"/>
 </associations>
+</Column>
+<Column name="ID2" id="A374E2B1-837B-776B-CDD4-E29416E0662B">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>510D0A5A-0529-13D9-256F-49CC72EDCEB9</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

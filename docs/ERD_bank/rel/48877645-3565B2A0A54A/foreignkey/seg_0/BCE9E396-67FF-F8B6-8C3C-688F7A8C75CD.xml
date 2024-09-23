@@ -9,7 +9,7 @@
 <referredTableID>D40D6C99-F8F4-E6E3-2428-3E0A6D5F61E7</referredTableID>
 <keyObject>A141BC1D-3790-635D-776D-453663E01998</keyObject>
 <referredKeyID>A141BC1D-3790-635D-776D-453663E01998</referredKeyID>
-<mandatory>false</mandatory>
+<mandatory>true</mandatory>
 <refColNames>ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

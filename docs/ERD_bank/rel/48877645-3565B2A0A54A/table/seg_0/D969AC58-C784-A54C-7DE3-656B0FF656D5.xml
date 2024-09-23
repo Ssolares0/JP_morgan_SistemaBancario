@@ -69,23 +69,6 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tarjetas_de_credito_ID_Cliente" id="2367B14B-96C0-2A1B-4CD5-329DB8B93781">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-16 03:04:29 UTC</createdTime>
-<generatorID>D0960755-FD5A-DE9F-6D63-0D442D600929</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="ECAFD077-C764-30A1-6105-04D6E0956D7A" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
-</associations>
-</Column>
 <Column name="Prestamos_ID" id="36B54C46-1B14-BB5A-5B86-EEDA9294A51E">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
@@ -99,23 +82,6 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Prestamos_ID2" id="5A73A732-6CA3-AB0A-4BB9-2BAAF6FA0E96">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:13 UTC</createdTime>
-<generatorID>B6A691AC-7DCE-C15E-25C3-B28C084A7340</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="ABF198A7-BC75-A099-7BB6-32502A74A9F9" referredColumn="7A727472-3039-7780-7F57-C508040E8F5F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -151,51 +117,6 @@
 <relationGeneratorID>A833F651-00FA-AEE1-FD89-19854B33F576</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="3C5550BE-8281-DD09-24ED-E69B6A29D920"/>
-<colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3786438C-F580-E66D-9A75-B825943B9937" name="Clientes__IDX">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 04:56:50 UTC</createdTime>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>A833F651-00FA-AEE1-FD89-19854B33F576</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D28D9106-7F6B-D01A-31B4-A1661D591C8B" name="Clientes__IDX">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="5A73A732-6CA3-AB0A-4BB9-2BAAF6FA0E96"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="967BA0DA-B3A7-0788-2E9B-0EBCCB0FAC4A" name="Clientes_Prestamos_FK">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
-<generatorID>2D1E4D92-F15E-7221-A9EA-80EDFEE63803</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5A73A732-6CA3-AB0A-4BB9-2BAAF6FA0E96"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="E7EFC1D9-938C-AED9-5B19-8CF54BC650B5" name="Clientes_Tarjetas_de_credito_FK">
-<createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
-<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2367B14B-96C0-2A1B-4CD5-329DB8B93781"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

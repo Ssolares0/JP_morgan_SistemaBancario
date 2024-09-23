@@ -56,7 +56,23 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="86F5D5F5-B0CF-1AE8-B03D-3D02C096D1A0" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+<colAssociation fkAssociation="931A9110-EFF6-581D-9CDD-5C39BDA51327" referredColumn="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+</associations>
+</Column>
+<Column name="Tarjetas_de_credito_ID2" id="395964D9-4D66-2BDF-2E55-89964C24C343">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>6F7B837B-EC7B-D580-6A1F-29636650BD0A</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="931A9110-EFF6-581D-9CDD-5C39BDA51327" referredColumn="5A5E1323-3895-E9B2-CD4A-647F3C81B7EE"/>
 </associations>
 </Column>
 </columns>
@@ -96,15 +112,28 @@
 <colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="218FA47B-AA1C-4006-5758-8B06718DA263" name="Estado_Tarjeta_Creditos_Tarjetas_de_credito_FK">
+<ind_PK_UK id="5B31CEED-896A-3CA3-5040-9FAACF9DF216" name="Estado_Tarjeta_Creditos__IDX">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
+<colUsage columnID="395964D9-4D66-2BDF-2E55-89964C24C343"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="219D7534-7A85-81BB-3BA3-46E1448CF0E2" name="Estado_Tarjeta_Creditos_Tarjetas_de_credito_FK">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:50 UTC</createdTime>
 <generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EBFCB254-DD1C-2253-B5CE-3D84174462E0"/>
+<colUsage columnID="395964D9-4D66-2BDF-2E55-89964C24C343"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

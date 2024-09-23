@@ -84,37 +84,20 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="1580E8D2-61AD-4DD0-39F3-D289A6816DAE">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:07:45 UTC</createdTime>
+<Attribute name="ID1" id="80D82180-926D-7157-6E7B-9367F03DF1B9">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:21:23 UTC</createdTime>
 <generatorID>867B4954-F8DD-7DCD-39EB-C377A5BBB6D5</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <engineerTo>
 <item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>DB244939-7853-0992-2824-73D9975A215D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID2" id="ADF9819B-C28C-07AA-7AA6-C384ECBEEF99">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:27:16 UTC</createdTime>
-<generatorID>D8654EF8-1AEC-CB4E-9066-F19897667C11</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D903AFD5-A663-147C-0CCB-4711B292C3C9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -152,8 +152,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="A8769397-01D2-89A6-6B38-BA76EA144A64" referredColumn="528B3F39-EDD9-0581-A49C-0CADE2818358"/>
+<colAssociation fkAssociation="ABB518B2-ABB0-8168-6A65-471B41C67F0C" referredColumn="528B3F39-EDD9-0581-A49C-0CADE2818358"/>
 </associations>
+</Column>
+<Column name="ID1" id="1F9B11D0-2D27-BAEA-A61D-D56CA45F526F">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>5E70BC77-613C-C22D-DA86-043A68D5FFBD</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -167,6 +180,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DE8382A7-FBAE-F605-D007-B818044F7D02"/>
+<colUsage columnID="5A5E1323-3895-E9B2-CD4A-647F3C81B7EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8B606CD5-7B47-F243-9141-5FC266295F1F" name="Tarjetas_de_credito__IDX">
@@ -202,9 +216,9 @@
 <colUsage columnID="10043B4A-F886-2251-F02C-C34428505A0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4ED3669F-1D26-FA74-9484-CB5C9B615770" name="Tarjetas_de_credito_Estado_Tarjeta_Creditos_FK">
+<ind_PK_UK id="2EBA36B9-EEBD-9196-59AA-2F14BBB74C49" name="Tarjetas_de_credito_Estado_Tarjeta_Creditos_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
+<createdTime>2024-09-22 23:29:50 UTC</createdTime>
 <generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>

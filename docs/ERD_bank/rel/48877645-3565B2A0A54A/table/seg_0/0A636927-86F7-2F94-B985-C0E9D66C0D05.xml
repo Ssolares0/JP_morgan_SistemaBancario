@@ -96,8 +96,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_de_cuentas_ID" id="A5108D14-5B32-9922-8A73-E0FEF7B395F1">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>BE84287F-117E-D7BC-A8ED-5DBF7B8449A8</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3933EC3F-4AD1-F393-C2D9-7E88D42D943A" referredColumn="B384DB2A-7AAA-89DD-3D6F-D08A5751528D"/>
+<colAssociation fkAssociation="A67B4910-64F3-F3E8-DD04-99818B0FDDFB" referredColumn="67310506-1D48-4EE4-CA9E-3588481ECD02"/>
 </associations>
 </Column>
 </columns>
@@ -137,6 +150,17 @@
 <colUsage columnID="09343058-9E14-38BE-B022-EF573BF14A82"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="92AAEE5B-09EF-2D5A-EC3A-3FCFFB164F9F" name="Cuentas_cliente__IDX">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A5108D14-5B32-9922-8A73-E0FEF7B395F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="B2A50DDA-992F-61A7-A52C-425D3BE8CC51" name="Cuentas_cliente_Clientes_FK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
@@ -148,15 +172,15 @@
 <colUsage columnID="4587ADB4-5060-10EB-6C92-911FA393EB62"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EAFB4A59-B949-11BB-E2C9-1734F96B9D97" name="Cuentas_cliente_Tipo_de_cuentas_FK">
+<ind_PK_UK id="38A32B70-F0BB-C4A8-696F-F0BFFB07A172" name="Cuentas_cliente_Tipo_de_cuentas_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
+<createdTime>2024-09-22 23:29:50 UTC</createdTime>
 <generatorID>ACD9FAFA-FD44-B036-A108-BF66EBE7340B</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="09343058-9E14-38BE-B022-EF573BF14A82"/>
+<colUsage columnID="A5108D14-5B32-9922-8A73-E0FEF7B395F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

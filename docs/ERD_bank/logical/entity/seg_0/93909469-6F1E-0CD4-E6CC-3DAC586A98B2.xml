@@ -42,29 +42,15 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="422A322C-9798-76C6-F776-14DC5955434B">
-<createdBy>Sebastian S</createdBy>
-<createdTime>2024-09-13 05:16:11 UTC</createdTime>
-<generatorID>EE953588-F771-4DD2-6DD2-3E115C131C01</generatorID>
-<ownerDesignName>ERD_bank</ownerDesignName>
-<engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
-</engineerTo>
-<referedAttribute>AF63BEE6-6CAB-D617-EED7-D383B9F6034E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="998BE5F7-3405-F1FD-11F1-2CA07296422F" name="Estado del prestamo PK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 19:24:42 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

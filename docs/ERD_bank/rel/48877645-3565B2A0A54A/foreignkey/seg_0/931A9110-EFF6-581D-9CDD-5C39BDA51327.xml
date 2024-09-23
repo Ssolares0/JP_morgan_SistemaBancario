@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86F5D5F5-B0CF-1AE8-B03D-3D02C096D1A0" containerWithKeyObject="567F8E25-13CA-B8CA-F36C-0C04BC919538" localFKIndex="218FA47B-AA1C-4006-5758-8B06718DA263" name="Estado_Tarjeta_Creditos_Tarjetas_de_credito_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="931A9110-EFF6-581D-9CDD-5C39BDA51327" containerWithKeyObject="567F8E25-13CA-B8CA-F36C-0C04BC919538" localFKIndex="219D7534-7A85-81BB-3BA3-46E1448CF0E2" name="Estado_Tarjeta_Creditos_Tarjetas_de_credito_FK">
 <createdBy>miste</createdBy>
-<createdTime>2024-09-17 21:18:48 UTC</createdTime>
+<createdTime>2024-09-22 23:29:50 UTC</createdTime>
 <generatorID>7B3D5432-6EEC-C9AC-F04C-E1708750AEDC</generatorID>
 <ownerDesignName>ERD_bank</ownerDesignName>
 <referredTableLongName>Tarjetas_de_credito</referredTableLongName>
@@ -10,7 +10,7 @@
 <keyObject>B2FE47B9-3BB1-D760-2B96-0E39AA1CED01</keyObject>
 <referredKeyID>B2FE47B9-3BB1-D760-2B96-0E39AA1CED01</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_Cliente</refColNames>
+<refColNames>ID_Cliente,ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

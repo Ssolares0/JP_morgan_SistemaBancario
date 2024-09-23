@@ -10,8 +10,8 @@
 <targetPk>3323333B-E691-91C6-7B3D-728679956B50</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>true</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>060C4C8B-41C7-9CEF-4814-9011D15B878C</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>3DB02E78-92DD-F3B3-16CB-F3651524E965</targetEntity>

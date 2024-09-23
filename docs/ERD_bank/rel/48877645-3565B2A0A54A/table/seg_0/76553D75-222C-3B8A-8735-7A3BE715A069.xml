@@ -32,7 +32,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Numero_Cuenta" id="6A10F435-9522-0A17-727A-AA4E04C92C4C">
+<Column name="Numero_CuentaDestino" id="6A10F435-9522-0A17-727A-AA4E04C92C4C">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>47550C73-B2AA-0FF2-793F-A8DC33872B69</generatorID>
@@ -91,9 +91,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Descripcion" id="061A9DCE-7FA3-87A8-244D-8E4D0C702522">
@@ -209,6 +208,35 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Tarjetas_de_credito_ID1" id="8AD29A72-83B5-3C78-E059-E26172C5548A">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>FB80AA72-D3B7-A3AB-DC94-C871CAA21414</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49DA794-2754-B86A-E126-F79B56B878D2" referredColumn="5A5E1323-3895-E9B2-CD4A-647F3C81B7EE"/>
+</associations>
+</Column>
+<Column name="Numero_CuentaOrigen" id="49501A7C-F1F9-3196-DC01-418A9AD9351F">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 23:29:23 UTC</createdTime>
+<generatorID>D63F3C44-7279-2A13-93B5-89F346871300</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0978D05B-849E-F9C5-6716-8CBED0A8D61F" name="Transacciones_PK">
@@ -254,6 +282,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C88BA26E-423A-8F2D-6986-E6CB8870110D"/>
+<colUsage columnID="8AD29A72-83B5-3C78-E059-E26172C5548A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8FC5EE35-4E81-901B-783E-1C31EE477C88" name="Transacciones_Sucursales_o_agencias_FK">

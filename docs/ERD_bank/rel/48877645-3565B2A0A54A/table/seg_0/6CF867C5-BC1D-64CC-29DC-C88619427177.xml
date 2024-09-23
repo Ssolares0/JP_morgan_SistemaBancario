@@ -35,7 +35,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="62235F10-49C3-3826-8CBB-8A9CAD8CED6F" name="Tipo_transaccion_PK">
+<ind_PK_UK id="62235F10-49C3-3826-8CBB-8A9CAD8CED6F" name="Tipo_de_transacciones_PK">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-16 03:04:29 UTC</createdTime>
 <generatorID>A2AC5655-3044-C08A-2679-EE5729B70A38</generatorID>

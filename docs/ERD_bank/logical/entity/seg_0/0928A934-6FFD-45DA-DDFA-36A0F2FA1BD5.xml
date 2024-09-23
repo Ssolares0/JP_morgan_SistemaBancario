@@ -41,7 +41,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Numero_Cuenta" id="47550C73-B2AA-0FF2-793F-A8DC33872B69">
+<Attribute name="Numero_CuentaDestino" id="47550C73-B2AA-0FF2-793F-A8DC33872B69">
 <createdBy>Sebastian S</createdBy>
 <createdTime>2024-09-13 04:22:43 UTC</createdTime>
 <ownerDesignName>ERD_bank</ownerDesignName>
@@ -106,9 +106,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Descripcion" id="CD9F10FB-1838-71DC-B5CC-D222CDCECC8D">
 <createdBy>Sebastian S</createdBy>
@@ -211,7 +210,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_CuentaOrigen" id="D63F3C44-7279-2A13-93B5-89F346871300">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-22 20:22:59 UTC</createdTime>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
