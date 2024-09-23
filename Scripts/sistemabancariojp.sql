@@ -14,11 +14,11 @@ ALTER TABLE clientes ADD CONSTRAINT clientes_pk PRIMARY KEY ( id_cliente);
 
 ---------creacion de tabla cuentas_cliente-------------------
 CREATE TABLE cuentas_cliente (
-    id_cuenta                               NUMBER(10) NOT NULL,
+    id_cuenta                         NUMBER(10) NOT NULL,
     numero_cuenta                     NUMBER(10),
     id_tipocuenta                     NUMBER(10) NOT NULL,
     saldo                             NUMBER(15, 2),
-    titular                           INTEGER NOT NULL, 
+    titular                           INTEGER NOT NULL
    
 );
 
@@ -64,7 +64,7 @@ ALTER TABLE prestamos_estados ADD CONSTRAINT prestamos_estados_pk PRIMARY KEY ( 
 ---------creacion de tabla estado_tarjeta_creditos-------------------
 CREATE TABLE estado_tarjeta_creditos (
     id_estadoTarjeta               NUMBER(10) NOT NULL,
-    estado_tarjeta                        VARCHAR2(10) NOT NULL,
+    estado_tarjeta                        VARCHAR2(10) NOT NULL
   
 );
 
@@ -75,7 +75,7 @@ ALTER TABLE estado_tarjeta_creditos ADD CONSTRAINT estado_tarjeta_credito_pk PRI
 CREATE TABLE municipios (
     id_municipio              NUMBER(10) NOT NULL,
     id_departamento  NUMBER(10) NOT NULL,
-    nombre           VARCHAR2(20) NOT NULL,
+    nombre           VARCHAR2(20) NOT NULL
     
 );
 
@@ -91,7 +91,7 @@ CREATE TABLE prestamos (
     fecha_desembolso           DATE NOT NULL,
     fecha_vencimiento          DATE NOT NULL,
     saldo_pendiente            NUMBER(15, 2) NOT NULL,
-    estado_prestamo            NUMBER(1) NOT NULL,
+    estado_prestamo            NUMBER(1) NOT NULL
 
     
 );
@@ -112,7 +112,7 @@ CREATE TABLE sucursales_o_agencias (
     nombre           VARCHAR2(25) NOT NULL,
     tipo             VARCHAR2(10) NOT NULL,
     telefono         VARCHAR2(15) NOT NULL,
-    id_departamento  NUMBER(10) NOT NULL,
+    id_departamento  NUMBER(10) NOT NULL
     
 );
 
@@ -128,7 +128,7 @@ CREATE TABLE tarjetas_de_credito (
     fecha_emision              DATE NOT NULL,
     fecha_expiracion           DATE NOT NULL,
     fecha_corte                DATE NOT NULL,
-    dia_ciclo                  VARCHAR2(2) NOT NULL,
+    dia_ciclo                  VARCHAR2(2) NOT NULL
   
    
    
@@ -140,7 +140,7 @@ ALTER TABLE tarjetas_de_credito ADD CONSTRAINT tarjetas_de_credito_pk PRIMARY KE
 
 CREATE TABLE tipo_de_cuentas (
     id_tipocuenta                    NUMBER(10) NOT NULL,
-    tipo_cuenta                   VARCHAR2(20) NOT NULL,
+    tipo_cuenta                   VARCHAR2(20) NOT NULL
     
 );
 
