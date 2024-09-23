@@ -100,6 +100,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="4CC89F8D-3212-309B-8965-07EC197F37CC">
+<createdBy>miste</createdBy>
+<createdTime>2024-09-17 22:41:12 UTC</createdTime>
+<generatorID>A833F651-00FA-AEE1-FD89-19854B33F576</generatorID>
+<ownerDesignName>ERD_bank</ownerDesignName>
+<engineerTo>
+<item key="48877645-5B6C-5E39-A038-3565B2A0A54A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A1437AB8-4445-6AA9-BC21-2B015BA3D798</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
